@@ -1,0 +1,253 @@
+きれいになる前
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>作品ページ</title>
+  <style>
+    /* ここにCSSを追加して、見た目をカスタマイズできます */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 100%;
+    }
+
+    /* Navigation Styles */
+    nav {
+      background-color: #333;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 10px;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    /* Main Content Styles */
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h1, h2, h3 {
+      margin-bottom: 10px;
+    }
+
+    /* Portfolio Section Styles */
+    #portfolio {
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      nav li {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <img src="path/to/header-image.jpg" alt="Header Image">
+  </header>
+
+  <!-- メニューバー -->
+  <nav>
+    <ul>
+      <li><a href="#home">ホーム</a></li>
+      <li><a href="#portfolio">ポートフォリオ</a></li>
+      <li><a href="#contact">お問い合わせ</a></li>
+    </ul>
+  </nav>
+
+  <!-- メインコンテンツ -->
+  <main>
+    <!-- 作品1 -->
+    <section>
+      <h2>作品1</h2>
+      <img src="path/to/image1.jpg" alt="作品1の画像">
+      <p>作品1の説明をここに記述します。</p>
+      <!-- 作品1の動画を埋め込むコードを追加 -->
+    </section>
+
+    <!-- 作品2 -->
+    <section>
+      <h2>作品2</h2>
+      <img src="path/to/image2.jpg" alt="作品2の画像">
+      <p>作品2の説明をここに記述します。</p>
+      <!-- 作品2の動画を埋め込むコードを追加 -->
+    </section>
+
+    <!-- 作品3 -->
+    <section>
+      <h2>作品3</h2>
+      <img src="path/to/image3.jpg" alt="作品3の画像">
+      <p>作品3の説明をここに記述します。</p>
+      <!-- 作品3の動画を埋め込むコードを追加 -->
+    </section>
+
+    <!-- 作品4 -->
+    <section>
+      <h2>作品4</h2>
+      <img src="path/to/image4.jpg" alt="作品4の画像">
+      <p>作品4の説明をここに記述します。</p>
+      <!-- 作品4の動画を埋め込むコードを追加 -->
+    </section>
+
+    <!-- 作品5 -->
+    <section>
+      <h2>作品5</h2>
+      <img src="path/to/image5.jpg" alt="作品5の画像">
+      <p>作品5の説明をここに記述します。</p>
+      <!-- 作品5の動画を埋め込むコードを追加 -->
+    </section>
+
+    <!-- 作品6 -->
+    <section>
+      <h2>作品6</h2>
+      <img src="path/to/image6.jpg" alt="作品6の画像">
+      <p>作品6の説明をここに記述します。</p>
+      <!-- 作品6の動画を埋め込むコードを追加 -->
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <!-- フッターに関するコンテンツを追加 -->
+  </footer>
+</body>
+
+</html>
+
+きれいになった後
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  max-width: 100%;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #333;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+
+/* Portfolio Section Styles */
+#portfolio {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+#portfolio img {
+  max-width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#portfolio p {
+  margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}
